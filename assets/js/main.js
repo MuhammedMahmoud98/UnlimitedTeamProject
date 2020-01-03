@@ -96,6 +96,12 @@ $("#btnUp").click(function(){
   })
   /*end nav offset*/
 
+  /*start How we are animation*/
+
+  $(".homeBtn").click(function(){
+    $("body,html").animate({scrollTop: 800}, 1500);
+  });
+  /*End How we are animation*/
 
   /* start links animation forwarding*/ 
   // let aboutUs = $(".awesomeWeb").offset().top;
